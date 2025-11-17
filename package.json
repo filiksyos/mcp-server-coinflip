@@ -1,0 +1,28 @@
+{
+  "name": "mcp-server-coinflip",
+  "version": "0.1.0",
+  "description": "A simple MCP server that provides a coin flip tool",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "build": "xmcp build",
+    "dev": "xmcp dev",
+    "start": "node dist/http.js"
+  },
+  "dependencies": {
+    "zod": "3.24.4"
+  },
+  "devDependencies": {
+    "xmcp": "latest"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "coin-flip",
+    "random",
+    "xmcp"
+  ],
+  "author": "",
+  "license": "MIT"
+}
